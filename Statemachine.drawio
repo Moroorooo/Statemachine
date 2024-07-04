@@ -1,11 +1,88 @@
-<mxfile host="app.diagrams.net" modified="2024-07-04T12:34:40.307Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="0jfQduv7ZOkOdb32xwXh" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-04T13:04:44.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="Rb6eKThr0vvl-p-VANX6" version="24.6.4" type="github">
   <diagram name="Page-1" id="H65d2I4zAaGBEBJaZodw">
     <mxGraphModel dx="1242" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qI_O5sF5T1mOzosA1kHo-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
-          <mxGeometry x="190" y="260" width="30" height="30" as="geometry" />
+          <mxGeometry x="215" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-2" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="155" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-3" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-5" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qI_O5sF5T1mOzosA1kHo-2" target="qI_O5sF5T1mOzosA1kHo-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="15" y="230" as="sourcePoint" />
+            <mxPoint x="170" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-6" value="" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="qI_O5sF5T1mOzosA1kHo-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-8" value="" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qI_O5sF5T1mOzosA1kHo-3" target="qI_O5sF5T1mOzosA1kHo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="110" as="sourcePoint" />
+            <mxPoint x="175" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-9" value="" style="resizable=0;html=1;align=center;verticalAlign=top;labelBackgroundColor=none;" connectable="0" vertex="1" parent="qI_O5sF5T1mOzosA1kHo-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-10" value="Edit Profile" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-13" value="User Clicks &#39;Edit Profile&#39;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qI_O5sF5T1mOzosA1kHo-3" target="qI_O5sF5T1mOzosA1kHo-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="310" as="sourcePoint" />
+            <mxPoint x="265" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="365" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-15" value="Profile Updated " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-16" value="Submit Changes" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qI_O5sF5T1mOzosA1kHo-10" target="qI_O5sF5T1mOzosA1kHo-15">
+          <mxGeometry x="0.0909" relative="1" as="geometry">
+            <mxPoint x="375" y="330" as="sourcePoint" />
+            <mxPoint x="365" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-19" value="User Completes Update Process" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;entryX=0.427;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry x="0.0105" relative="1" as="geometry">
+            <mxPoint x="305" y="458.02" as="sourcePoint" />
+            <mxPoint x="186.24" y="200.00000000000003" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="185" y="460" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-22" value="Update Failed  " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-23" value="Submit Changes" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qI_O5sF5T1mOzosA1kHo-10" target="qI_O5sF5T1mOzosA1kHo-22">
+          <mxGeometry x="0.0909" relative="1" as="geometry">
+            <mxPoint x="375" y="330" as="sourcePoint" />
+            <mxPoint x="375" y="440" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qI_O5sF5T1mOzosA1kHo-24" value="User Clicks &#39;Edit Profile&#39; Again" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="qI_O5sF5T1mOzosA1kHo-22" target="qI_O5sF5T1mOzosA1kHo-10">
+          <mxGeometry x="0.0885" relative="1" as="geometry">
+            <mxPoint x="520" y="330" as="sourcePoint" />
+            <mxPoint x="540" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
